@@ -1,0 +1,57 @@
+/* Change the font size and text color for headings */
+h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #2980b9;
+}
+
+/* Change background color and center the text for the body */
+body {
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+/* Center the image */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Grouped CSS rules for paragraphs and links */
+p, a {
+    font-size: 16px;
+    color: #34495e;
+}
+
+/* Combined CSS selector for sections */
+section#about, section#discography {
+    background-color: #bdc3c7;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* CSS combinator to style nested elements */
+nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+/* Center text for footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #7f8c8d;
+    color: white;
+}
